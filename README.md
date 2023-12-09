@@ -9,7 +9,7 @@ The anaconda3 instance available on the AUHPCS cluster will provide the base ana
 This conserves space by not having to host the Anaconda application itself in your AUHPCS home directory.
 The AUHPCS recommendation is to create "path-based" environments in your home directory to install specific Python applications/environments to. Although there may be package redundancy using discreet paths for Python application environments, these environments may be more intuitive to manage when compared to "name-based" environments.
 
-# Load the Anaconda module from the cluster:
+## Load the Anaconda module from the cluster:
 ~# module load anaconda3/2021.11
 Run the conda initialize command to configure your parent conda environment:
 ~# conda init
