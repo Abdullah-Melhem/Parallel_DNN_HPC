@@ -26,15 +26,15 @@ Then install your conda application:
 ~# conda install appx
 Or, if a specific software channel is required:
 ~# conda install -c conda-forge appx
-# You can then activate your environment in the manner already detailed to use the installed software
-# Using Anaconda-managed applications in interactive computing sessions
+### You can then activate your environment in the manner already detailed to use the installed software
+### Using Anaconda-managed applications in interactive computing sessions
 ~# module load anaconda3/2021.11
 ~# conda activate ~/apps/conda/appx
-# Using Anaconda-managed applications in SLURM job submission scripts
+### Using Anaconda-managed applications in SLURM job submission scripts
 ~# module load anaconda3/2021.11
 ~# source activate ~/apps/conda/appx
 
-# Running Python applications from conda environments (apply the above conventions to interactive and batch job submissions)
+### Running Python applications from conda environments (apply the above conventions to interactive and batch job submissions)
 ~# module load anaconda3/2021.11
 ~# export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 ~# conda activate myenv
