@@ -3,11 +3,11 @@ This research investigates the optimization of Deep Neural Networks (DNNs) train
 
 # HPC environment:
 # install modules 
-based on AUHPCS policies: Users cannot install environment modules into the central cluster repository, but they can in their home directories or shared lab directories.
+-- Based on AUHPCS policies: Users cannot install environment modules into the central cluster repository, but they can in their home directories or shared lab directories.
 AUHPCS Anaconda, conda path-based environments
-The anaconda3 instance available on the AUHPCS cluster will provide the base anaconda software used to create conda-managed environments. Once loaded it can be used to install/extend additional Python applications in home directories.
-This conserves space by not having to host the Anaconda application itself in your AUHPCS home directory.
-The AUHPCS recommendation is to create "path-based" environments in your home directory to install specific Python applications/environments. Although there may be package redundancy using discreet paths for Python application environments, these environments may be more intuitive to manage when compared to "name-based" environments.
+-- The anaconda3 instance available on the AUHPCS cluster will provide the base anaconda software used to create conda-managed environments. Once loaded it can be used to install/extend additional Python applications in home directories.
+-- This conserves space by not having to host the Anaconda application itself in your AUHPCS home directory.
+-- The AUHPCS recommendation is to create "path-based" environments in your home directory to install specific Python applications/environments. Although there may be package redundancy using discreet paths for Python application environments, these environments may be more intuitive to manage when compared to "name-based" environments.
 
 ### Load the Anaconda module from the cluster:
 - ~# module load anaconda3/2021.11
