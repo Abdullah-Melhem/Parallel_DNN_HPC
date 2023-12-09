@@ -38,6 +38,18 @@ AUHPCS Anaconda, conda path-based environments
 - ~# export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 - ~# conda activate myenv
 - ~# srun python /<FULL_PATH>/myscript.py
+
+
+# install required dependencies inside Venv:
+- conda create --name your_env_name:
+  conda activate your_env_name
+- Install Dependencies:
+  conda install --file requirements.txt
+- Verify Installation:
+  conda list
+   
+
+
 # SLURM Job 
 Example of the SLURM file uploaded in the SLURM example.
 - Open a Text Editor: Open a text editor on your system. Use a plain text editor like Notepad (on Windows), TextEdit (on macOS), or any code editor of your choice.
