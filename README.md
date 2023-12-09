@@ -2,7 +2,7 @@
 This research investigates the optimization of Deep Neural Networks (DNNs) training through a comparative analysis of two parallelization methods—Allreduce and Voting—implemented via the Message Passing Interface (MPI) on CIFAR10 and CIFAR100 datasets. 
 
 # HPC environment:
-1- install modules 
+# install modules 
 based on AUHPCS policies: Users cannot install environment modules into the central cluster repository, but they can in their home directories or shared lab directories.
 AUHPCS Anaconda, conda path-based environments
 The anaconda3 instance available on the AUHPCS cluster will provide the base anaconda software used to create conda-managed environments. Once loaded it can be used used to install/extend additional Python applications in home directories.
