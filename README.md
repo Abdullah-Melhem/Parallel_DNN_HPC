@@ -38,5 +38,14 @@ The AUHPCS recommendation is to create "path-based" environments in your home di
 - ~# export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 - ~# conda activate myenv
 - ~# srun python /<FULL_PATH>/myscript.py
-
+# SLURM Job 
+example of the SLURM file uploaded in the codes file.
+- Open a Text Editor: Open a text editor on your system. Use a plain text editor like Notepad (on Windows), TextEdit (on macOS), or any code editor of your choice.
+- Start with the Shebang Line: start with the shebang line #!/bin/bash. This line tells the system to use the Bash shell to interpret the script.
+- Set the SLURM parameters using #SBATCH lines. Adjust the values according to your specific requirements.
+- Load necessary modules using module load commands.
+- If needed, load other modules like TensorFlow or Keras using similar module load commands.
+- If there are any environment variables to set, you can do so in the script. (example: number of MPI processes).
+- Run the MPI script using the mpirun command. Adjust the path and script name according to your setup.
+- Save the script with a .sh extension.
  
