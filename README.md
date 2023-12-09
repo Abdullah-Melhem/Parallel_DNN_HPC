@@ -39,7 +39,7 @@ The AUHPCS recommendation is to create "path-based" environments in your home di
 - ~# conda activate myenv
 - ~# srun python /<FULL_PATH>/myscript.py
 # SLURM Job 
-example of the SLURM file uploaded in the codes file.
+Example of the SLURM file uploaded in the codes file.
 - Open a Text Editor: Open a text editor on your system. Use a plain text editor like Notepad (on Windows), TextEdit (on macOS), or any code editor of your choice.
 - Start with the Shebang Line: start with the shebang line #!/bin/bash. This line tells the system to use the Bash shell to interpret the script.
 - Set the SLURM parameters using #SBATCH lines. Adjust the values according to your specific requirements.
