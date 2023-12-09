@@ -49,3 +49,12 @@ Example of the SLURM file uploaded in the SLURM example.
 - Run the MPI script using the mpirun command. Adjust the path and script name according to your setup.
 - Save the script with a .sh extension.
  
+# SLURM parameters 
+- #SBATCH --job-name=Voting: Specifies the name of the job. In this case, the job is named "Voting."
+- #SBATCH --nodes=1: Specifies the number of nodes requested for the job. In this case, it's requesting 1 node.
+- #SBATCH --ntasks-per-node=4: Specifies the number of tasks (MPI processes) to be run per node. It's set to 4 tasks per node in this example.
+- #SBATCH --cpus-per-task=4: Specifies the number of CPU cores to allocate per task. It's set to 4 CPU cores per task in this example.
+- #SBATCH --time=02:10:00: Specifies the maximum amount of time the job is allowed to run. In this case, it's set to 2 hours and 10 minutes.
+- #SBATCH --mail-type=NONE: Specifies the type of email notifications for the job. In this example, no email notifications will be sent (NONE).
+- #SBATCH --mail-user=youremail@example.edu: Specifies the email address to which notifications will be sent. Replace youremail@example.edu with the actual email address.
+- #SBATCH --output=output.out: Specifies the name of the file to which standard output (stdout) will be written. In this case, it's set to "output.out." This file will contain the output of your job.
